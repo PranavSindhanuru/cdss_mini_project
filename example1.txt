@@ -1,0 +1,12 @@
+# program to count first n numbers 
+
+VAR n = INPUT_INT()
+
+VAR result = 0
+
+FOR i = 1 TO n+1 THEN
+    VAR result = result + i
+END
+
+PRINT("sum of n numbers is :")
+PRINT(result)

@@ -1,0 +1,16 @@
+PRINT("Enter your name: ")
+VAR name = INPUT()
+
+FUN join(elements, separator)
+    VAR result = ""
+    VAR len =  LEN(elements)
+
+    FOR i = 0 TO len THEN
+        VAR result = result + elements / i
+        VAR result = result + separator
+    END
+
+    RETURN result
+END
+
+PRINT(join(["Hello", name], " "))
